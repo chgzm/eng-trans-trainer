@@ -43,6 +43,7 @@ private:
         {"He will ",    "He'll "    },
         {"She will ",   "She'll "   },
         {"They will ",  "They'll "  },
+        {"I have ",     "I've "     },
         {" does not ",  " doesn't " },
         {" did not ",   " didn't "  },
         {" will not ",  " won't "   },
