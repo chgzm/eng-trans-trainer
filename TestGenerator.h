@@ -36,6 +36,7 @@ private:
 
     const std::vector<std::pair<std::string, std::string>> shortened = {
         {"It is ",      "It's "     },
+        {" it is ",      " it's "   },
         {"What is ",    "What's "   },
         {"I am ",       "I'm "      },
         {"I will ",     "I'll "     },
