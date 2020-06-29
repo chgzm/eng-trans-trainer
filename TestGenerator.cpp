@@ -5,7 +5,7 @@
 #include <random>
 
 int TestGenerator::load(const std::string& filePath) noexcept {
-    if (this->loadQuestions(filePath)) {
+    if (this->loadQuestions(filePath) != 0) {
         std::fprintf(stderr, "Failed to load questions%s\n", filePath.c_str());
         return -1;
     }
