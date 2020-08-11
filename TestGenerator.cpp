@@ -124,7 +124,9 @@ int TestGenerator::loadQuestions(const std::string& filePath) noexcept {
                     return -1;
                 }
                 current.en.push_back(line);
-                std::getline(ifs, line);
+                if (!std::getline(ifs, line)) {
+                    break;
+                }
             }
 
             this->questions.push_back(std::move(current));
