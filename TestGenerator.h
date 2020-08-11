@@ -54,6 +54,7 @@ private:
         {" has not ",   " hasn't "  },
         {" was not ",   " wasn't "  },
         {" were not ",  " weren't " },
+        {" must not ",  " mustn't " },
     };
 
     std::vector<Question> questions;
